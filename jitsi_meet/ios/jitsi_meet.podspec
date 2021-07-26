@@ -15,9 +15,9 @@ Jitsi Meet Plugin
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.preserve_paths = 'JitsiMeetSDK.xcframework'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework JitsiMeetSDK' }
-  s.vendored_frameworks = 'JitsiMeetSDK.xcframework'
+  s.preserve_paths = 'JitsiMeetSDK.xcframework','WebRTC.xcframework'
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework JitsiMeetSDK WebRTC' }
+  s.vendored_frameworks = 'JitsiMeetSDK.xcframework','WebRTC.xcframework'
   s.platform = :ios, '11.0'
 
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
