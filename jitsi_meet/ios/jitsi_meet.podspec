@@ -16,7 +16,7 @@ Jitsi Meet Plugin
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.preserve_paths = 'JitsiMeetSDK.xcframework','WebRTC.xcframework'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework JitsiMeetSDK WebRTC' }
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework JitsiMeetSDK' }
   s.vendored_frameworks = 'JitsiMeetSDK.xcframework','WebRTC.xcframework'
   s.platform = :ios, '11.0'
 
