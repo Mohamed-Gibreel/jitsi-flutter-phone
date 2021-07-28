@@ -52,6 +52,5 @@ dependencies {
 
     // Jitsi Meet from https://github.com/jitsi/jitsi-maven-repository/tree/master/releases/org/jitsi/react/jitsi-meet-sdk
     implementation ('org.jitsi.react:jitsi-meet-sdk:3.6.0') { transitive = true }
-    // implementation ('org.webkit.android-jsc:android-jsc:r245459') { transitive = true }
     
 }
