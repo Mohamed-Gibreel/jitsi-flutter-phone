@@ -234,7 +234,7 @@ class _MeetingState extends State<Meeting> {
     // If feature flag are not provided, default values will be used
     // Full list of feature flags (and defaults) available in the README
     Map<FeatureFlagEnum, bool> featureFlags = {
-      FeatureFlagEnum.WELCOME_PAGE_ENABLED: false,
+      FeatureFlagEnum.WELCOME_PAGE_ENABLED: true,
       FeatureFlagEnum.PIP_ENABLED: false,
     };
     if (!kIsWeb) {
