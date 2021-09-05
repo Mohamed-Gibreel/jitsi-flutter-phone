@@ -66,8 +66,9 @@ class JitsiViewController: UIViewController {
             builder.welcomePageEnabled = true
             builder.room = self.roomName
             builder.serverURL = self.serverUrl
-            // builder.subject = self.subject
             builder.userInfo = self.jistiMeetUserInfo
+            builder.setAudioMuted(self.audioMuted ?? false)
+            builder.setVideoMuted(self.videoMuted ?? false)
             // builder.audioOnly = self.audioOnly ?? false
             // builder.audioMuted = self.audioMuted ?? false
             // builder.videoMuted = self.videoMuted ?? false
